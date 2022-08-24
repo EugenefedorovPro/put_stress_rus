@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name = "wiktionary_rus"
+name = "put_stress_rus"
 version = "0.0.1"
 authors = [
   { name="Eugene Proskulikov", email="eugene.proskulikov@gmail.com" },
@@ -24,6 +24,6 @@ readme = {file = ["README.rst"]}
 dependencies = {file = ["requirements.txt"]}
 
 [tool.setuptools]
-include-package-data = true
-packages = ["put_stress_rus"]
 
+include-package-data = true
+package-dir = {"" = "put_stress_rus"}
