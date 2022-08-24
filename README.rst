@@ -64,7 +64,7 @@ Neuron Network training
 `nn_training <https://github.com/EugenefedorovPro/put_stress_rus/tree/main/nn_training>`_ directory contains files demanded for training neural network, which is used in `put_stress_rus`:
  
 * *put_stress_on_word.ipynb* - preprocessing data, model compile, save, validate, predict. The file demands Jupyter editor (JupyterLab, VS Code with Jupyter extension, PyCharm Professional, etc.)
-* *requirements.txt* - list of dependecies, including the two critical ones:
+* *requirements_nn.txt* - list of dependecies, including the two critical ones:
     * `ipapy <https://github.com/pettarin/ipapy>`_ is `my modifications <https://github.com/EugenefedorovPro/ipapy_eugene/tree/forpython310>`_ of the library for working with the Russin language within the framework of International Phonetic Alphabet (IPA)
     * `*wiktionary_rus* <https://github.com/EugenefedorovPro/wiktionary_rus>`_ is my Python package with Russian wiktionary preprocessed for neural networks
 

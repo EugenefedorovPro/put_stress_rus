@@ -1,1 +1,3 @@
-include wiktionary_rus/Model_put_stress/.*
+include wiktionary_rus/Model_put_stress/*.pb
+include wiktionary_rus/Model_put_stress/variables/*.index
+include wiktionary_rus/Model_put_stress/variables/*.data-00000-of-00001 
