@@ -23,6 +23,10 @@ dynamic = ["readme", "dependencies"]
 readme = {file = ["README.rst"]}
 dependencies = {file = ["requirements.txt"]}
 
+
+
 [tool.setuptools]
 include-package-data = true
-packages = ["put_stress_rus", "put_stress_rus.utils"]
+package-dir = {"" = "put_stress_rus"}
+# packages = ["put_stress_rus", "put_stress_rus.utils"]
+packages = ["utils"]
