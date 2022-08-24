@@ -27,6 +27,6 @@ dependencies = {file = ["requirements.txt"]}
 
 [tool.setuptools]
 include-package-data = true
-package-dir = {"" = "put_stress_rus"}
-# packages = ["put_stress_rus", "put_stress_rus.utils"]
-packages = ["utils"]
+# package-dir = {"" = "put_stress_rus"}
+packages = ["put_stress_rus", "put_stress_rus.utils"]
+# packages = ["utils"]
