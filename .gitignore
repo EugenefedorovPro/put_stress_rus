@@ -3,3 +3,5 @@ venv_putstress
 .env
 __pycache__
 stderr.log
+dist/
+wiktionary_rus.egg-info/
