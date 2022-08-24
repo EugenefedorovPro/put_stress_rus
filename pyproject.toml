@@ -25,6 +25,7 @@ dependencies = {file = ["requirements.txt"]}
 
 [tool.setuptools]
 include-package-data = true
+packages = ["put_stress_rus"]
 
-[tool.setuptools.packages.find]
-where = ["put_stress_rus"]
+# [tool.setuptools.packages.find]
+# where = ["put_stress_rus"]
