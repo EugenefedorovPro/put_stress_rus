@@ -17,7 +17,7 @@ def errors(func):
         try:
             return func(*args)
         except KeyError:
-            return print("Input word includes invalid character, remove it and try again")
+            return "Input word includes invalid character, remove it and try again"
     return inner
 
 
