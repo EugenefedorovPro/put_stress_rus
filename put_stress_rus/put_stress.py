@@ -12,6 +12,16 @@ model_stress = load_model(path_model_stress)
 print("Trained Model uploaded successfully")
 
 
+def errors(func):
+    def inner(*args):
+        try:
+            return func(*args)
+        except KeyError:
+            return print("Input word includes invalid character, remove it and try again")
+    return inner
+
+
+@errors
 def put_stress(word_lowcase):
     word_as_number = WordsProcessing.word2numbers(word_lowcase)
     stress_as_array = model_stress.predict(word_as_number) 
