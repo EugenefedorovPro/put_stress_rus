@@ -1,3 +1,1 @@
-include put_stress_rus/Model_put_stress/*.pb
-include put_stress_rus/Model_put_stress/variables/*.index
-include put_stress_rus/Model_put_stress/variables/*.data-00000-of-00001 
+include put_stress_rus/model_put_stress.h5
