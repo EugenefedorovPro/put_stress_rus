@@ -8,3 +8,5 @@ put_stress_rus.egg-info/
 put_stress_rus/put_stress_rus.egg-info/
 build/
 draft_test.ipynb
+draft.*
+.*draft

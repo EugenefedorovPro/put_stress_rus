@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 from pathlib import Path
 
 
-path_model_stress = Path(__file__).parent / "Model_put_stress" 
+path_model_stress = Path(__file__).parent / "model_put_stress.h5" 
 model_stress = load_model(path_model_stress)
 print("Trained Model uploaded successfully")
 
