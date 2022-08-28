@@ -1,11 +1,11 @@
+from pathlib import Path
 import os
+from put_stress_rus.utils.word_processing import WordsProcessing
+from tensorflow.keras.models import load_model
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
 import tensorflow as tf
-from put_stress_rus.utils.word_processing import WordsProcessing
-from tensorflow.keras.models import load_model
-from pathlib import Path
 
 
 path_model_stress = Path(__file__).parent / "model_put_stress.h5"
