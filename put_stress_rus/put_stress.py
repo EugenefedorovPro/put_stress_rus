@@ -10,7 +10,7 @@ import tensorflow as tf
 
 path_model_stress = Path(__file__).parent / "model_put_stress.h5"
 model_stress = load_model(path_model_stress)
-print("Trained Model uploaded successfully")
+print("Trained Model 'put_stress' uploaded successfully")
 
 
 def errors(func):
